@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    box-sizing:border-box;
+    font-family: Helvetica;
+}
+
+body{
+    background-image: url("../img/bg_claro.jpg");
+    background-repeat: repeat;
+}
+
+img{width: auto; max-width: 100%;}
+
+#skill{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    border: 2px solid #9C3627;
+    margin: 0 auto;
+    box-shadow: 0 0 20px #000;
+}
+
+#skill div{width: 100%; height: 100%; background-repeat: no-repeat; background-position: center;}
+
+.congelacion{background-image: url("../img/congelacion.jpg");}
+.explosion_ensordecedora{background-image: url("../img/explosion_ensordecedora.jpg");}
+.forjar_espiritu{background-image: url("../img/forjar_espiritu.jpg");}
+.impacto_solar{background-image: url("../img/impacto_solar.jpg");}
+.meteorito{background-image: url("../img/meteorito.jpg");}
+.muro{background-image: url("../img/muro.jpg");}
+.pem{background-image: url("../img/pem.jpg");}
+.presteza{background-image: url("../img/presteza.jpg");}
+.tornado{background-image: url("../img/tornado.jpg");}
+.movimiento_fantasmal{background-image: url("../img/movimiento_fantasmal.jpg");}
+
+.combo .quas{background-image: url("../img/quas.jpg");}
+.combo .wex{background-image: url("../img/wex.jpg");}
+.combo .exort{background-image: url("../img/exort.jpg");}
+
+.actionbar{overflow: auto; max-width: 416px; margin: 0 auto; padding-bottom: 40px;}
+.actionbar a{float: left; border:3px solid #252627; width: 23%; margin: 0 1%;}
+.actionbar a:active{border-color: #000;}
+
+.combo a{width: 30px; height: 30px; display: inline-block; border-radius: 50%; background-position: center; background-repeat: no-repeat; background-size: cover;}
+.combo{text-align: center; margin: 10px 0;}
+
+.ok{
+    animation: okey 3s;
+    -webkit-animation: okey 3s;
+}
+
+@keyframes okey{
+    from{box-shadow: 0 0 20px #4CAF50;}
+    to{box-shadow: 0 0 20px black;}
+}
+
+@-webkit-keyframes okey{
+    from{box-shadow: 0 0 20px #4CAF50;}
+    to{box-shadow: 0 0 20px black;}
+}
+
+.error{
+    animation: error 3s;
+    -webkit-animation: error 3s;
+}
+
+@keyframes error{
+    from{box-shadow: 0 0 20px red;}
+    to{box-shadow: 0 0 20px black;}
+}
+
+@-webkit-keyframes error{
+    from{box-shadow: 0 0 20px red;}
+    to{box-shadow: 0 0 20px black;}
+}
+
+.head{background-image: url("../img/bg_oscuro.jpg"); padding: 15px; border-bottom: 1px solid #000; box-shadow: 0 0 10px #000; overflow: auto; margin-bottom: 40px; text-align: left; color:#786952; font-size: 24px; font-weight: bold; line-height: 30px;}
+.head a{height: 30px; width: 30px; display: block; border: 2px solid #786952; border-radius: 2px;}
+
+.head a.help{float: right; line-height: 25px; text-align: center; color: #786952; font-weight: bold;}
+.head a.menu{float: left;}
+.ayuda{position: absolute; top: 61px; right: 0; box-shadow: 0 0 10px #000; display: none;}
